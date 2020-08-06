@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5" width="10" height="5">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #0967d2 } 
+	</style>
+	<g id="Contact">
+		<g id="Container">
+			<g id="Form">
+				<g id="Select">
+					<path id="Arrow" class="shp0" d="M0.23 0.77L4.21 4.67C4.65 5.09 5.35 5.09 5.79 4.67L9.77 0.77C10.2 0.34 10.06 0 9.44 0L0.56 0C-0.06 0 -0.2 0.34 0.23 0.77Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

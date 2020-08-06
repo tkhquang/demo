@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 413" width="1920" height="413">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #2186eb } 
+	</style>
+	<g id="CTA">
+		<g id="Background">
+			<path id="Background" class="shp0" d="M0.02 0.68L1920 0.68L1920 413L0.02 413L0.02 0.68Z" />
+		</g>
+	</g>
+</svg>

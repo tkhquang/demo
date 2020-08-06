@@ -1,0 +1,50 @@
+@import "mixins";
+
+*,
+*::before,
+*::after {
+  @apply box-border;
+}
+
+html, body {
+  @apply p-0 m-0;
+}
+
+html {
+  @apply text-sm;
+
+  @include Responsive("SM") {
+    @apply text-base;
+  }
+}
+
+body {
+  @apply font-sans antialiased leading-6 transition duration-500;
+}
+
+a:not(.button) {
+  @apply transition-all duration-200;
+}
+
+img {
+  @apply block m-auto max-w-full max-h-full;
+}
+
+select {
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+button:focus,
+textarea:focus, 
+input:focus,
+select:focus {
+  outline: none;
+}
+
+#app {
+  @apply flex flex-col;
+}
