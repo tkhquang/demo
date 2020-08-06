@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <Layout id="app">
     <Header />
     <Hero />
     <Intro />
@@ -11,28 +11,26 @@
     <Blog />
     <Contact />
     <Footer />
-  </div>
+  </Layout>
 </template>
 
 <script>
-import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
+import Layout from "@/layouts/Default";
 
-import Hero from "./components/Hero.vue";
-import Intro from "./components/Intro.vue";
-import Testimonial from "./components/Testimonial.vue";
-import Screenshots from "./components/Screenshots.vue";
-import FAQ from "./components/FAQ.vue";
-import CTA from "./components/CTA.vue";
-import Pricing from "./components/Pricing.vue";
-import Blog from "./components/Blog.vue";
-import Contact from "./components/Contact.vue";
+import Hero from "@/sections/Hero.vue";
+import Intro from "@/sections/Intro.vue";
+import Testimonial from "@/sections/Testimonial.vue";
+import Screenshots from "@/sections/Screenshots.vue";
+import FAQ from "@/sections/FAQ.vue";
+import CTA from "@/sections/CTA.vue";
+import Pricing from "@/sections/Pricing.vue";
+import Blog from "@/sections/Blog.vue";
+import Contact from "@/sections/Contact.vue";
 
 export default {
-  name: "App",
+  name: "IndexPage",
   components: {
-    Header,
-    Footer,
+    Layout,
     Hero,
     Intro,
     Testimonial,
