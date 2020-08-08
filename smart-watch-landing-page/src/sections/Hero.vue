@@ -14,11 +14,13 @@
       >
         Smart Watch App Landing Page
       </h1>
-      <img
-        class="hero__image filter-lg"
-        src="@/assets/images/Smartwatch.png"
-        alt="Smartwatch"
-      />
+      <div class="hero__image-wrapper">
+        <img
+          class="hero__image"
+          src="@/assets/images/Smartwatch.png"
+          alt="Smartwatch"
+        />
+      </div>
     </div>
   </section>
 </template>
@@ -29,7 +31,7 @@
   background-size: auto 200%;
 }
 
-.hero__image {
-  max-height: 75%;
+.hero__image-wrapper {
+  max-height: 55vh;
 }
 </style>

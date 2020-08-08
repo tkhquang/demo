@@ -45,7 +45,8 @@ export default {
     content: "";
     position: absolute;
     bottom: -5px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 0%;
     opacity: 0;
     height: 3px;

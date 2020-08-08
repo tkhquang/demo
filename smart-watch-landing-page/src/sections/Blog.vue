@@ -9,7 +9,7 @@
         <li
           v-for="(item, index) in items"
           :key="index"
-          class="post-item relative z-1 px-8 py-12 filter bg-white text-theme-on-background cursor-pointer w-full mx-auto"
+          class="post-item relative z-1 px-8 py-12 shadow-xl bg-white text-theme-on-background cursor-pointer w-full mx-auto"
         >
           <p class="italic text-sm truncate text-theme-on-surface">
             On <span>{{ item.date }}</span> by <span>{{ item.author }}</span>

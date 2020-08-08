@@ -3,7 +3,7 @@
     <li
       v-for="step in steps"
       :key="step.title"
-      class="relative step__item pb-12 px-12 mx-auto pt-24 lg:m-4 bg-white rounded-md"
+      class="relative step__item pb-12 px-12 mx-auto pt-24 my-4 lg:m-4 bg-white rounded-md"
     >
       <span class="step__icon z-2 select-none">
         <img :src="getIcon(step.icon)" :alt="step.title" />
@@ -65,24 +65,30 @@ export default {
 }
 
 .step__item:hover {
-  filter: drop-shadow(0px 15px 17.5px rgba(51, 78, 104, 0.1));
+  @apply shadow-xl;
 }
 
 .step__item::before {
   content: counter(step-counter);
   position: absolute;
-  left: 3.25rem;
+  display: block;
+  left: 4.75rem;
+  bottom: 0;
+  top: 0;
+  line-height: 115%;
   color: #d9e2ec;
   font-weight: 500;
   text-align: center;
-  font-size: 13rem;
+  font-size: 12.75rem;
   z-index: 0;
 }
 
 .step__icon {
+  position: relative;
   display: flex;
   width: 50px;
   height: 50px;
+  z-index: 1;
 }
 
 .step__icon img {

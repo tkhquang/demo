@@ -18,11 +18,11 @@
         <li
           v-for="(item, index) in items"
           :key="index"
-          class="package has-transition flex flex-col md:grid grid-rows-2 bg-white hover:bg-theme-primary text-theme-on-background hover:text-white filter p-8 rounded-lg mx-auto"
+          class="package has-transition flex flex-col md:grid grid-rows-2 bg-white hover:bg-theme-primary text-theme-on-background hover:text-white shadow-xl p-8 rounded-lg mx-auto"
         >
           <div class="flex flex-col">
             <h3
-              class="block py-1 px-4 rounded-full mx-auto uppercase font-bold text-center text-sm text-theme-primary filter-sm bg-theme-surface"
+              class="block py-1 px-4 rounded-full mx-auto uppercase font-bold text-center text-sm text-theme-primary shadow bg-theme-surface"
             >
               {{ item.package }}
             </h3>

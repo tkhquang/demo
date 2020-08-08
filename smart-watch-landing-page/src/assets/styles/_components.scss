@@ -33,22 +33,6 @@
   @apply transition duration-500;
 }
 
-.filter-sm {
-  filter: drop-shadow(0 0 37.5px rgba(51,51,51,0.1));
-}
-
-.filter {
-  filter: drop-shadow(0px 15px 17.5px rgba(51, 78, 104, 0.1));
-}
-
-.filter-lg {
-  filter: drop-shadow(0px 25px 25px rgba(36, 59, 83, 0.25));
-}
-
-.filter-blue {
-  filter: drop-shadow(0px 15px 17.5px rgba(33,134,235,0.75));
-}
-
 .line-clamp-4 {
   display: -webkit-box;
   line-clamp: 4;

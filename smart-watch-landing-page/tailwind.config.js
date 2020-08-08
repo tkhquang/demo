@@ -62,6 +62,15 @@ module.exports = {
         "3": "3",
         fg: "999"
       }
+    },
+    fontFamily: {
+      sans: ["Roboto", "sans-serif"]
+    },
+    boxShadow: {
+      lg:
+        "0 10px 15px 2px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+      xl:
+        "0 15px 25px 5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
     }
   },
   variants: {

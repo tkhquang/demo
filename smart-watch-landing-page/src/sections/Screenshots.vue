@@ -10,20 +10,23 @@
           :autoplay="true"
           :visible-slides="5"
           :arrows="false"
-          :slide-ratio="1 / 2"
+          :slide-ratio="5 / 12"
           :gap="0"
           :touchable="true"
           :dragging-distance="50"
           :breakpoints="{
             1024: {
-              visibleSlides: 3
+              visibleSlides: 3,
+              slideRatio: 2 / 3
             }
           }"
         >
           <VueperSlide
             v-for="(item, index) in items"
             :key="index"
-            :image="getScreenshotImage(item.image)"
+            :content="`<div class='mx-4'><img src='${getScreenshotImage(
+              item.image
+            )}' alt='${item.image}' /></div>`"
           />
         </VueperSlides>
       </div>

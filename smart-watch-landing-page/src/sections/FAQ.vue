@@ -29,7 +29,7 @@
             <VsaItem
               v-for="(item, index) in items"
               :key="index"
-              class="mb-4 has-transition rounded-lg min-w-full bg-white filter"
+              class="mb-4 has-transition rounded-lg min-w-full bg-white shadow-lg"
             >
               <VsaHeading>
                 {{ item.heading }}
@@ -46,9 +46,9 @@
           </VsaList>
         </div>
 
-        <div class="w-2/3 mt-10 md:mt-0 md:w-5/12 mx-auto">
+        <div class="w-2/3 mt-10 md:mt-0 md:w-5/12 px-10 mx-auto">
           <img
-            class="w-4/5"
+            class="block max-w-full h-auto"
             src="@/assets/images/Smartwatch.png"
             alt="Smartwatch"
           />
