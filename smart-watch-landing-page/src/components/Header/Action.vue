@@ -1,5 +1,5 @@
 <template>
-  <ul class="w-1/3 hidden md:inline-flex justify-end gap-4 md:gap-6 lg:gap-8">
+  <ul class="w-1/3 hidden md:inline-flex justify-end flex-gap-6">
     <li v-for="(item, index) in items" :key="index">
       <span
         class="link has-transition"

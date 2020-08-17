@@ -5,7 +5,7 @@
         Why people <span class="emphasis">loves us</span>
       </h1>
       <div
-        class="relative flex-center flex-col w-full mx-auto lg:w-9/12 lg:flex-row justify-between my-4 mt-16 gap-10"
+        class="relative flex-center flex-col w-full mx-auto lg:w-9/12 lg:flex-row justify-between my-4 mt-16 flex-gap-10"
       >
         <div class="image relative flex-center w-9/12 lg:w-11/12">
           <img

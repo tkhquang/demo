@@ -1,7 +1,7 @@
 <template>
   <form
     action=""
-    class="mt-16 bg-white flex items-center justify-between flex-wrap md:flex-no-wrap gap-6 w-9/12"
+    class="mt-16 bg-white flex items-center justify-between flex-wrap md:flex-no-wrap flex-gap-6 w-9/12"
   >
     <div
       class="bg-white flex items-center justify-between rounded-full px-1 py-2 w-full border-theme-primary border-2"

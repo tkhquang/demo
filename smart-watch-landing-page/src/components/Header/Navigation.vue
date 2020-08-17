@@ -1,6 +1,6 @@
 <template>
   <nav class="header__nav w-1/3 hidden md:block">
-    <ul class="nav__wrapper inline-flex gap-4 md:gap-6 lg:gap-8">
+    <ul class="nav__wrapper inline-flex flex-gap-6">
       <li v-for="(item, index) in items" :key="index" class="nav__item">
         <InternalAnchor :id="item.id" :title="item.title" />
       </li>

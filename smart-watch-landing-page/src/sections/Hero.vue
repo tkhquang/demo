@@ -14,7 +14,7 @@
       >
         Smart Watch App Landing Page
       </h1>
-      <div class="hero__image-wrapper">
+      <div class="hero__image-wrapper flex-center">
         <img
           class="hero__image"
           src="@/assets/images/Smartwatch.png"

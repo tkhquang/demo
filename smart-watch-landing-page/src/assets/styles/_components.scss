@@ -56,3 +56,44 @@
   -webkit-box-orient: vertical;  
   overflow: hidden;
 }
+
+@mixin flex-gap($size) {
+  --gap: #{$size};
+
+  margin: calc(-1 * var(--gap)) var(--gap);
+  & > * {
+    margin: var(--gap);
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.flex-gap-16 {
+  @include flex-gap(1rem);
+}
+
+.flex-gap-10 {
+  @include flex-gap(0.625rem);
+}
+
+.flex-gap-8 {
+  @include flex-gap(0.5rem);
+}
+
+.flex-gap-6 {
+  @include flex-gap(0.375rem);
+}
+
+.flex-gap-4 {
+  @include flex-gap(0.25rem);
+}
+
+.flex-gap-2 {
+  @include flex-gap(calc(0.25rem / 2));
+}

@@ -2,17 +2,21 @@
   <footer class="footer">
     <div class="container my-5">
       <div class="flex flex-col md:flex-row justify-between items-center mx-4">
-        <div class="flex gap-4">
-          <img
-            src="@/assets/icons/AppStore Button.png"
-            alt="AppStore"
-            class="cursor-pointer"
-          />
-          <img
-            src="@/assets/icons/PlayStore Button.png"
-            alt="PlayStore"
-            class="cursor-pointer"
-          />
+        <div class="flex flex-gap-4">
+          <div>
+            <img
+              src="@/assets/icons/AppStore Button.png"
+              alt="AppStore"
+              class="cursor-pointer"
+            />
+          </div>
+          <div>
+            <img
+              src="@/assets/icons/PlayStore Button.png"
+              alt="PlayStore"
+              class="cursor-pointer"
+            />
+          </div>
         </div>
         <ul class="nav__wrapper inline-flex flex-wrap mt-5 md:mt-0">
           <li
@@ -42,7 +46,7 @@
         <div class="font-normal text-sm text-theme-surface">
           All right reserved
         </div>
-        <div class="flex flex-wrap gap-4">
+        <div class="flex flex-wrap flex-gap-4">
           <img
             src="@/assets/icons/instagram.png"
             alt="Instagram"
