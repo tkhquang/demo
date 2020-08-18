@@ -14,13 +14,12 @@
       >
         Smart Watch App Landing Page
       </h1>
-      <div class="hero__image-wrapper flex-center">
-        <img
-          class="hero__image"
-          src="@/assets/images/Smartwatch.png"
-          alt="Smartwatch"
-        />
-      </div>
+      <div
+        class="hero__image-wrapper bg-contain bg-center bg-no-repeat w-full h-full"
+        :style="{
+          backgroundImage: `url(${require('@/assets/images/Smartwatch.png')}`
+        }"
+      ></div>
     </div>
   </section>
 </template>
