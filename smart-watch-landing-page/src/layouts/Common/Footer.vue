@@ -46,22 +46,28 @@
         <div class="font-normal text-sm text-theme-surface">
           All right reserved
         </div>
-        <div class="flex flex-wrap flex-gap-4">
-          <img
-            src="@/assets/icons/instagram.png"
-            alt="Instagram"
-            class="cursor-pointer"
-          />
-          <img
-            src="@/assets/icons/twitter.png"
-            alt="Twitter"
-            class="cursor-pointer"
-          />
-          <img
-            src="@/assets/icons/facebook-f.png"
-            alt="Facebook"
-            class="cursor-pointer"
-          />
+        <div class="flex-center flex-wrap flex-gap-4">
+          <div>
+            <img
+              src="@/assets/icons/instagram.png"
+              alt="Instagram"
+              class="cursor-pointer h-4"
+            />
+          </div>
+          <div>
+            <img
+              src="@/assets/icons/twitter.png"
+              alt="Twitter"
+              class="cursor-pointer h-4"
+            />
+          </div>
+          <div>
+            <img
+              src="@/assets/icons/facebook-f.png"
+              alt="Facebook"
+              class="cursor-pointer h-4"
+            />
+          </div>
         </div>
       </div>
     </div>
